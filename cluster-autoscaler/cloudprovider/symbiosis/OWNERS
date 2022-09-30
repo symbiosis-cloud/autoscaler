@@ -1,6 +1,6 @@
-#approvers:
-#- thecodeassassin
-#- styren
-#reviewers:
-#- thecodeassassin
-#- styren
+approvers:
+- thecodeassassin
+- styren
+reviewers:
+- thecodeassassin
+- styren

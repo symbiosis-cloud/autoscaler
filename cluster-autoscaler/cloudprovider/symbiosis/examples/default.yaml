@@ -17,8 +17,7 @@ spec:
         app: cluster-autoscaler
     spec:
       containers:
-      - image: registry.symbiosis.host/autoscaler:0.2
-        imagePullPolicy: Always
+      - image: symbiosiscloud/autoscaler:0.3
         name: cluster-autoscaler
         command:
           - ./cluster-autoscaler
@@ -38,8 +37,6 @@ spec:
                 key: clusterId
                 name: symbiosis
       serviceAccountName: cluster-autoscaler
-      imagePullSecrets:
-      - name: symbiosis-registry
       terminationGracePeriodSeconds: 10
       tolerations:
       - effect: NoSchedule

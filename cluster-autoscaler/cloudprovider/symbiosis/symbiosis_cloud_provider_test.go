@@ -84,6 +84,19 @@ var fakeNodePools = []*symgo.NodePool{
 			MaxSize: 10,
 		},
 	},
+	{
+		ID:              "c3ea763b-d398-4161-b67c-42e1ee7aa1f8",
+		Name:            "test-pool-2",
+		NodeTypeName:    "general-1",
+		ClusterName:     "test-cluster",
+		DesiredQuantity: 1,
+		Nodes:           fakeNodes,
+		Autoscaling: symgo.AutoscalingSettings{
+			Enabled: false,
+			MinSize: 0,
+			MaxSize: 0,
+		},
+	},
 }
 
 var fakeApiV1Node = &apiv1.Node{
