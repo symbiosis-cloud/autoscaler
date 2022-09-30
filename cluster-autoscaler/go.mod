@@ -25,7 +25,8 @@ require (
 	github.com/prometheus/client_golang v1.12.1
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.2
+	github.com/stretchr/testify v1.8.0
+	github.com/symbiosis-cloud/symbiosis-go v1.0.10
 	golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
@@ -92,6 +93,7 @@ require (
 	github.com/go-openapi/jsonreference v0.19.5 // indirect
 	github.com/go-openapi/swag v0.19.14 // indirect
 	github.com/go-ozzo/ozzo-validation v3.5.0+incompatible // indirect
+	github.com/go-resty/resty/v2 v2.7.0 // indirect
 	github.com/godbus/dbus/v5 v5.0.6 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt/v4 v4.2.0 // indirect
@@ -107,6 +109,7 @@ require (
 	github.com/heketi/heketi v10.3.0+incompatible // indirect
 	github.com/imdario/mergo v0.3.6 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
+	github.com/jarcoal/httpmock v1.1.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/karrick/godirwalk v1.16.1 // indirect
 	github.com/libopenstorage/openstorage v1.0.0 // indirect
@@ -138,7 +141,7 @@ require (
 	github.com/seccomp/libseccomp-golang v0.9.2-0.20220502022130-f33da4d89646 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/spf13/cobra v1.4.0 // indirect
-	github.com/stretchr/objx v0.2.0 // indirect
+	github.com/stretchr/objx v0.4.0 // indirect
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635 // indirect
 	github.com/vishvananda/netlink v1.1.0 // indirect
 	github.com/vishvananda/netns v0.0.0-20200728191858-db3c7e526aae // indirect
@@ -246,3 +249,5 @@ replace k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.25.0
 replace k8s.io/sample-controller => k8s.io/sample-controller v0.25.0
 
 replace k8s.io/pod-security-admission => k8s.io/pod-security-admission v0.25.0
+
+replace github.com/symbiosis-cloud/symbiosis-go => github.com/symbiosis-cloud/symbiosis-go v1.0.10

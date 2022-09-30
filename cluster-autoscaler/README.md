@@ -23,7 +23,7 @@ You should also take a look at the notes and "gotchas" for your specific cloud p
 * [HuaweiCloud](./cloudprovider/huaweicloud/README.md)
 * [External gRPC](./cloudprovider/externalgrpc/README.md)
 * [Hetzner](./cloudprovider/hetzner/README.md)
-* [Equinix Metal](./cloudprovider/packet/README.md#notes) 
+* [Equinix Metal](./cloudprovider/packet/README.md#notes)
 * [IonosCloud](./cloudprovider/ionoscloud/README.md)
 * [OVHcloud](./cloudprovider/ovhcloud/README.md)
 * [Linode](./cloudprovider/linode/README.md)
@@ -32,6 +32,7 @@ You should also take a look at the notes and "gotchas" for your specific cloud p
 * [BizflyCloud](./cloudprovider/bizflycloud/README.md)
 * [Vultr](./cloudprovider/vultr/README.md)
 * [TencentCloud](./cloudprovider/tencentcloud/README.md)
+* [Symbiosis](./cloudprovider/symbiosis/README.md)
 * [Scaleway](./cloudprovider/scaleway/README.md)
 * [Rancher](./cloudprovider/rancher/README.md)
 * [Kamatera](./cloudprovider/kamatera/README.md)
@@ -184,3 +185,4 @@ Supported cloud providers:
 * Huawei Cloud https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/huaweicloud/README.md
 * Rancher https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/rancher/README.md
 * Kamatera https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/kamatera/README.md
+* Symbiosis https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/symbiosis/README.md
