@@ -84,6 +84,8 @@ const (
 	CivoProviderName = "civo"
 	// RancherProviderName gets the provider name of rancher
 	RancherProviderName = "rancher"
+	// SymbiosisProviderName gets the provider name of symbiosis
+	SymbiosisProviderName = "symbiosis"
 )
 
 // CloudProvider contains configuration info and functions for interacting with
